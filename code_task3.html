@@ -11,6 +11,7 @@
 
 <body>
     <h1 id="result"></h1>
+    <p id="refresh"></p>
 </body>
 <script>
     let sum = 0
@@ -18,9 +19,12 @@
     function addMe(x) {
         sum += x;
     }
-    addMe(10);
-    addMe(50);
-    document.getElementById('result').innerHTML = sum;
+    addMe(108);
+    addMe(508);
+    addMe(1005)
+        alert("The Result : " + sum);
+    document.getElementById('result').innerHTML ="The Result : " + sum;
+    document.getElementById('refresh').innerHTML = "refresh the page to see that again :)"
 </script>
 
 </html>
